@@ -7,7 +7,7 @@ import {
   badRequestHandler,
   forbiddenHandler,
   genericServerErrorHandler,
-} from "./services/errorHandler.js";
+} from "./services/error.js";
 
 const server = express();
 const port = 3001; // the port that the server will run
